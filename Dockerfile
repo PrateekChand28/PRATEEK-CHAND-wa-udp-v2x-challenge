@@ -14,3 +14,6 @@ ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 
 CMD ["bash", "grader/run_all.sh"]
+
+#docker build -t v2x-challenge .
+#docker run --rm v2x-challenge
